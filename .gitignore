@@ -1,0 +1,11 @@
+# This skill must never commit anyone's personal data.
+# Scratch logs, run records, and session files stay local.
+*.log
+*.local
+scratch/
+runs/
+session*/
+status-log*.md
+*.gif
+.DS_Store
+Thumbs.db
